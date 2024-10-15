@@ -1,0 +1,15 @@
+.container {
+  margin: 0 auto;            /* Центрування контейнера на сторінці */
+  padding: 0 20px;           /* Внутрішні відступи для мобільних пристроїв */
+  display: flex;             /* Використовуємо flexbox для гнучкого розташування */
+  flex-direction: column;    /* Вертикальне розташування елементів */
+  align-items: center;       /* Центрування дітей по горизонталі */
+  justify-content: center;   /* Центрування дітей по вертикалі, якщо потрібно */
+  min-height: 100vh;         /* Мінімальна висота на всю висоту вікна */
+  background-color: #1E1E1E; /* Фоновий колір */
+}
+
+.weather-data {
+  display: flex;
+  margin: 50px 0;
+}

@@ -1,0 +1,65 @@
+/* Обнулення стилів */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Встановлення 100% висоти для html та body */
+html, body {
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Відображення блокових елементів у повну ширину */
+body {
+  line-height: 1.5;
+  font-family: Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Зображення, відео та canvas адаптивні */
+img, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Таблиці без меж */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Усунення стилів для списків */
+ul, ol {
+  list-style: none;
+}
+
+/* Лінки без підкреслення */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Поля форми без стандартних стилів */
+input, button, textarea, select {
+  font: inherit;
+  outline: none;
+  border: none;
+}
+
+/* Кнопки та елементи форми без стандартних стилів */
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+textarea {
+  resize: none;
+} 
